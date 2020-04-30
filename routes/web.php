@@ -23,6 +23,8 @@ Route::get('products/additem/{id}', 'productController@additem')->name('products
 
 Route::get('products/emptycart', 'productController@emptycart')->name('products.emptycart');
 
+Auth::routes();
+
 //Route::resource('scorders', 'scorderController');
 
 //Route::resource('products', 'productController');
