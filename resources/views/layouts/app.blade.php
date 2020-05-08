@@ -7,7 +7,10 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
         <link rel="stylesheet" href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css"> 
     </head> 
-    <body >   
+    <body > 
+	    <nav class="navbar navbar-default navbar-static-top">
+			@include('layouts.navAuth')
+	    </nav>
         <div id="page-content-wrapper"> 
             <div class="container-fluid"> 
                 <div class="row"> 

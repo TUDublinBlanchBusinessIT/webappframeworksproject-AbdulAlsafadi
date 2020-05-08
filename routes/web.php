@@ -25,6 +25,11 @@ Route::get('products/emptycart', 'productController@emptycart')->name('products.
 
 Auth::routes();
 
+//Route::get('logout', 'Auth\LoginController@logout')->name('logout');
+//Route::get('/home','memberController@index')->name('home');
+
+
+
 //Route::resource('scorders', 'scorderController');
 
 //Route::resource('products', 'productController');
